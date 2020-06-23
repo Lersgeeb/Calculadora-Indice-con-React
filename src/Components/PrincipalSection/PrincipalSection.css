@@ -1,0 +1,20 @@
+.PrincipalSectionClass .TitlePrincipal{
+    color: #ffc107;
+}
+
+.line{
+    background-color: #ffc107;
+    height: 0.5em;
+    border-radius: 2%;
+    width: 100%;
+    margin-bottom: 0.4em;
+}
+
+@media only screen and (max-width: 992px) {
+    .PrincipalSectionClass .TitlePrincipal{
+        text-align: center;
+    }
+    .line{
+      display: none;
+    }
+  }

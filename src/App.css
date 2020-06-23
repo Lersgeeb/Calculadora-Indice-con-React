@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  width: 100vw;
+  /*background-color: #EAF0F9;*/
+  background: rgb(252,253,255);
+  background: linear-gradient(45deg, rgba(252,253,255,1) 48%, rgb(226, 233, 245) 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.inputSectionlayer1{
+  /*background-color: #E0EAF9;*/
+  background: rgb(236,241,249);
+  background: linear-gradient(45deg, rgb(240, 244, 250) 48%, rgba(224,234,249,1) 100%);
+  width:35%;
+  box-shadow: 4px 0px 0.3em rgba(0, 0, 0, 0.137);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.inputSectionlayer2{
+  height: 100%;
+  /*background-color: #C9D9F2;*/
+  background: rgb(221,229,241);
+  background: linear-gradient(45deg, rgba(221,229,241,1) 48%, rgba(201,217,242,1) 100%);
+  width:90%;
+  box-shadow: 4px 0px 0.3em rgba(0, 0, 0, 0.137);
+}
+
+.inputSectionlayer3{
+  height: 100%;
+  background-color: #34487B;
+  box-shadow: 4px 0px 0.3em rgba(0, 0, 0, 0.137);
+  width:90%;
+  padding: 3em;
+  position: relative;
+}
+
+
+.secondarySection{
+  width: 65%;
+  padding: 3em;
+}
+
+.verticalLine{
+  z-index: 1;
+  background-color: #ffc107;
+  background-color: white;
+  position: absolute;
+  left: 5px;
+  width: 1px;
+  bottom: 0;
+  top: 0;
+}
+
+.left1{
+  left: 6px;
+  background-color: #faefcf;
+  background-color: #ffc107;
+}
+
+.left2{
+  left: 12px;
+  background-color: #ffdc73;
+  background-color: #ffc107;
+}
+
+.left3{
+  left: 18px;
+  background-color: #ffc107;
+}
+
+@media only screen and (max-width: 992px) {
+  .app {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .inputSectionlayer1, .inputSectionlayer2, .inputSectionlayer3{
+    width: 100vw;
+  }
+
+  
+  
+
+  .verticalLine{
+    display: none;
+  }
+
+  .secondarySection{
+    width: 100vw;
   }
 }

@@ -1,0 +1,48 @@
+/*.ButtonsTable button{
+    border: 0;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #FFCC00;
+}*/
+
+.ButtonsTable Button{
+    width: 100%;
+    border-radius: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0;
+    
+    
+}
+
+.ButtonsTable input{
+    width: 100%;
+    height:100%;
+    border: transparent;
+    text-align: center;
+}
+
+.addRemRow{
+    width: 100%;
+    border-radius: 2%;
+    color: black;
+    background-color: #D8DEE6;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0;
+    text-align: center;
+}
+
+.addRemRow:hover{
+    background-color: #ced2da;
+}
+
+@media only screen and (max-width: 992px) {
+    .ButtonsTable{
+        margin-top: 1em;
+    }
+  }

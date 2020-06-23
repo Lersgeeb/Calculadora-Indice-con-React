@@ -1,0 +1,11 @@
+td input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+td input:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

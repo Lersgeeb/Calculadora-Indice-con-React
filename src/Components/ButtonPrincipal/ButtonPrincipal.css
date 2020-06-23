@@ -1,0 +1,93 @@
+.lesswidth{
+    display: none;
+}
+
+.normalWidth{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    justify-items: center;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+
+.ButtonPrincipalClass{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC107;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #34487B;
+    width: 100%;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    border-radius: 2%;
+    cursor: pointer;
+    z-index: 0;
+    position: relative;
+    border: 1px solid #FFC107;
+}
+
+.ButtonPrincipalClass:before{
+    content: "";
+    border-radius: 2%;
+    background-color: #34487B ;
+    
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    z-index: -1;
+
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms ease-in-out;
+}
+
+.ButtonPrincipalClass:hover:before,
+.ButtonPrincipalClass:focus:before{
+    transform:scaleX(1);
+}
+
+.ButtonPrincipalClass:hover,
+.ButtonPrincipalClass:focus{
+    border: 1px solid #FFC107;
+    color: #FFC107;
+}
+
+.ButtonPrincipalClass .icon{
+    font-size: 3em;
+}
+.ButtonPrincipalClass .textButton{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.inputFile{
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .buttonsPrincipal{
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    }
+
+    .ButtonPrincipalClass{
+        font-size: 0.5em;
+    }
+
+    .normalWidth{
+        display: none;
+    }
+
+    .lesswidth{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        row-gap: 1em;
+        column-gap: 1em;
+    }
+}
