@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Calculadora-Indice-con-React/static/css/main.b3718996.chunk.css",
-    "main.js": "/Calculadora-Indice-con-React/static/js/main.c4253ef3.chunk.js",
-    "main.js.map": "/Calculadora-Indice-con-React/static/js/main.c4253ef3.chunk.js.map",
+    "main.css": "/Calculadora-Indice-con-React/static/css/main.c0b75803.chunk.css",
+    "main.js": "/Calculadora-Indice-con-React/static/js/main.b91fb929.chunk.js",
+    "main.js.map": "/Calculadora-Indice-con-React/static/js/main.b91fb929.chunk.js.map",
     "runtime-main.js": "/Calculadora-Indice-con-React/static/js/runtime-main.bc36fb3f.js",
     "runtime-main.js.map": "/Calculadora-Indice-con-React/static/js/runtime-main.bc36fb3f.js.map",
-    "static/js/2.46fc7a30.chunk.js": "/Calculadora-Indice-con-React/static/js/2.46fc7a30.chunk.js",
-    "static/js/2.46fc7a30.chunk.js.map": "/Calculadora-Indice-con-React/static/js/2.46fc7a30.chunk.js.map",
+    "static/js/2.289cf005.chunk.js": "/Calculadora-Indice-con-React/static/js/2.289cf005.chunk.js",
+    "static/js/2.289cf005.chunk.js.map": "/Calculadora-Indice-con-React/static/js/2.289cf005.chunk.js.map",
     "index.html": "/Calculadora-Indice-con-React/index.html",
-    "precache-manifest.c28aba71685f721626d177a946b885e5.js": "/Calculadora-Indice-con-React/precache-manifest.c28aba71685f721626d177a946b885e5.js",
+    "precache-manifest.89ea06483ffcf2e52a50b9f98239fc78.js": "/Calculadora-Indice-con-React/precache-manifest.89ea06483ffcf2e52a50b9f98239fc78.js",
     "service-worker.js": "/Calculadora-Indice-con-React/service-worker.js",
-    "static/css/main.b3718996.chunk.css.map": "/Calculadora-Indice-con-React/static/css/main.b3718996.chunk.css.map",
-    "static/js/2.46fc7a30.chunk.js.LICENSE.txt": "/Calculadora-Indice-con-React/static/js/2.46fc7a30.chunk.js.LICENSE.txt"
+    "static/css/main.c0b75803.chunk.css.map": "/Calculadora-Indice-con-React/static/css/main.c0b75803.chunk.css.map",
+    "static/js/2.289cf005.chunk.js.LICENSE.txt": "/Calculadora-Indice-con-React/static/js/2.289cf005.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bc36fb3f.js",
-    "static/js/2.46fc7a30.chunk.js",
-    "static/css/main.b3718996.chunk.css",
-    "static/js/main.c4253ef3.chunk.js"
+    "static/js/2.289cf005.chunk.js",
+    "static/css/main.c0b75803.chunk.css",
+    "static/js/main.b91fb929.chunk.js"
   ]
 }
