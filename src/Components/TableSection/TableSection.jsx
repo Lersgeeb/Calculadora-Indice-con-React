@@ -120,11 +120,12 @@ class TableSection extends React.Component{
             </Col>
           </Row>
         </div>
-        <TableComp className="tableComp" notes={this.state.notes} onChangeRow={this.onChangeRow} ></TableComp>
         <div className="note">
           {(this.state.showProm)?promComp(this.state.prom):null}
         </div>
 
+        <TableComp className="tableComp" notes={this.state.notes} onChangeRow={this.onChangeRow} ></TableComp>
+        
       </div>
     );
   } 

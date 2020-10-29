@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
 }
-.tableSectionHeader{
-    margin-bottom: 2em;
-}
 
 .note{
     width: 100%;
@@ -12,17 +9,13 @@
     justify-content: center;
     font-size: 2em;
     font-weight: bold;
-    margin-top: 3em;
+    margin: 1em 0em;
     /*color: #34487B;*/
 }
 
 @media only screen and (max-width: 992px) {
     .tableSectionClass{
-        flex-direction: column-reverse;
-    }
-
-    .tableSectionHeader{
-        order: 3;
+        flex-direction: column;
     }
 
     .note{
